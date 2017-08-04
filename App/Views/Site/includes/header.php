@@ -7,8 +7,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!--<script src="https://use.fontawesome.com/3875140896.js"></script>-->
 	<script type="text/javascript" src="/public/assets/js/uikit.js"></script>
+	<script type="text/javascript" src="/public/assets/js/uikit-icons.js"></script>
 	<script type="text/javascript" src="/public/assets/js/bootstrap.js"></script>
 	<script type="text/javascript" src="/public/assets/js/default.js"></script>
+
 	<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
@@ -59,6 +61,7 @@
 							</ul>
 						</li>
 						<li><a href="" class="nav-item">Vereadores</a></li>
+						<li><a href="" class="nav-item">Noticias</a></li>
 						<li><a href="" class="nav-item">Atividade legislativa</a></li>
 						<li><a href="" class="nav-item">Legislação</a></li>
 						<li><a href="" class="nav-item">Serviços</a></li>
@@ -76,17 +79,19 @@
 				<div class="container">
 					<a href="/"><img id="nav-img" src="/public/assets/images/sao-jose-logo-md.png" class="col-lg-2 col-md-2 col-sm-1 visible-lg visible-md" alt="Logo"  ></a>
 					<ul id="navbar-nav-fixed" class="navbar-nav nav navbar-right col-lg-10 col-md-10"">
-						
-						<li><a class="dropdown-toggle nav-item" data-toggle="collapse" data-target="#sub-menu-fixed">Institucional 
-							<i class="fa fa-caret-down fa-fw" aria-hidden="true"></i></a>
+						<li>
+						<a class="dropdown-toggle nav-item nav-item-fixed" data-toggle="collapse" data-target="#sub-menu-fixed">Institucional
+						<i class="fa fa-caret-down fa-fw" aria-hidden="true"></i></a>
 							<ul id="sub-menu-fixed" class="collapse">
 								<li><a href="">Histórias</a></li>
 								<li><a href="">Históriasdsadasasdads</a></li>
 								<li><a href="">Histórias deassadsadasd</a></li>
 								<li><a href="">Históriasasdsadsaddasdsasadsads</a></li>
 							</ul>
+
 						</li>
 						<li><a href="" class="nav-item nav-item-fixed">Vereadores</a></li>
+						<li><a href="" class="nav-item nav-item-fixed">Noticias</a></li>
 						<li><a href="" class="nav-item nav-item-fixed">Atividade legislativa</a></li>
 						<li><a href="" class="nav-item nav-item-fixed">Legislação</a></li>
 						<li><a href="" class="nav-item nav-item-fixed">Serviços</a></li>

@@ -12,7 +12,7 @@
 	width: 100%;   
 	padding: 10px;
 	margin: auto;
-	border: 1px solid #C4C4C4;
+	/*border: 1px solid #C4C4C4;*/
 	margin: 0;
 }
 #noticias-content h1 {
@@ -23,6 +23,7 @@
 	background-color: #00488d;
 	padding: 20px;
 	color: white;
+	border-bottom:5px solid #0A355F;
 
 }
 
@@ -103,8 +104,13 @@
 	right: 10px;
 	bottom: 5px;
 	border-radius: 0;
-
-
+	background-color: #00488D;
+	border:0;
+	padding: 15px 30px 15px 30px;
+	transition: 1s;
+}
+.news-item-btn:hover {
+	background-color: #03213D;
 }
 
 

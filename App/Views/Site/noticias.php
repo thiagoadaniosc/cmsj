@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="/public/assets/css/noticias.css">
 <!-- Body Init -->
 <main id="content-body" class="container">	
-	<section id="noticias-content" class="container">
+	<section id="noticias-content" class="container thumbnail">
 
 		<h1>NOTICIAS</h1>
 
@@ -15,7 +15,7 @@
 				</a>
 
 				<div class="news-item-content col-lg-8">
-					<p class="news-item-data">27 de Julho de 2017</p>
+					<p class="news-item-data"> <i class="fa fa-clock-o" aria-hidden="true"></i> - 27 de Julho de 2017</p>
 					<a href="noticia" class="news-link">
 						<h4 class="news-title">TITULO DA NOTICIA</h4>
 

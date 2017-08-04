@@ -6,15 +6,16 @@
 
 	<h2>Contato</h2>
 	<section id="form" class="col-lg-6 thumbnail">
-	
-		<form method="post" action="contato.php" class="form-inline ">
-			<input type="text" name="nome" placeholder="Nome" class="form-control col-lg-6">
-			<input type="text" name="telefone" placeholder="Telefone" class="form-control col-lg-6">
-			<input type="text" name="email" placeholder="E-mail" class="form-control">
-			<input type="text" name="assunto" placeholder="Assunto" class="form-control">
-			<textarea name="mensagem" placeholder="Mensagem" class="form-control"></textarea>
-			<input type="reset" value="Limpar" class="btn btn-danger">
-			<input type="submit" value="Enviar" class="btn btn-primary">
+
+		<form method="post" action="contato.php" class="form-inline">
+
+			<input type="text" name="nome" placeholder="Nome" class="uk-input uk-width-1-2@s">
+			<input type="text" name="telefone" placeholder="Telefone" class="uk-input uk-width-1-2@s">
+			<input type="text" name="email" placeholder="E-mail" class="uk-input uk-width-1-2@s">
+			<input type="text" name="assunto" placeholder="Assunto" class="uk-input uk-width-1-2@s">
+			<textarea name="mensagem" placeholder="Mensagem" class="uk-input"></textarea>
+			<input type="reset" value="Limpar" class="uk-button uk-button-danger">
+			<input type="submit" value="Enviar" class="uk-button uk-button-primary">
 
 		</form>
 	</section>
