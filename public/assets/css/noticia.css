@@ -111,7 +111,8 @@ article figcaption  {
 	padding-right: 10px !important;
 	padding-left: 10px !important;
 	margin:0 !important;
-	background-color: white !important;
+	background-color: #F9F9F9 !important;
+
 
 
 }
@@ -126,8 +127,9 @@ article figcaption  {
 	border-radius: 0;
 }
 .last-news-item {
-
 	padding:0;
+	border:0px;
+
 
 }
 

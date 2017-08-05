@@ -5,6 +5,10 @@ $app->get('/', function($request, $response, $args) use($container){
 
 });
 
+$app->get('/vereadores', function ($request, $response, $args) use($container){
+	$this->view->render($response, 'vereadores.php');
+});
+
 $app->get('/contato', function($request, $response, $args) use($container){
 	$this->view->render($response,'contato.php');
 

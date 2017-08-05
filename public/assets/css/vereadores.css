@@ -1,0 +1,168 @@
+#content-body {
+	clear: both; 
+	padding: 0;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	/*	width: 80%; /* Alterar para mudar escala*/
+	margin: auto;
+
+
+}
+
+#vereadores-content {
+	padding: 10px;
+	margin: auto;
+	/*border: 1px solid #C4C4C4;*/
+	margin: 0;
+		border-radius:0;
+}
+#vereadores-content h1 {
+	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	width: 100%;
+	background-color: #2A2A2A;
+	padding: 20px;
+	color: white;
+	border-radius: 2px;
+
+}
+
+#vereadores-content  ul .thumbnail {
+	padding: 0;
+}
+#vereadores-content h2 {
+	font-size: 18px;
+	margin-top: 0;
+	width: 100%;
+	/*background-color: #3E5471;*/
+	background-color: #164A8E;
+	padding: 10px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+#vereadores-content .uk-accordion-content {
+	padding: 0;
+	margin:0;
+	margin-top: 2px;
+	word-wrap: break-word;
+
+}
+
+#vereadores-content ul li  div img {
+	max-width: 100%;
+	float: left;
+	margin:0;
+	padding: 0;
+}
+
+.vereador-descricao {
+	float: left;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	word-wrap: break-word;
+
+
+}
+
+.vereador-descricao ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
+	margin-left: 5px;
+	margin-top: 10px;
+	
+}
+
+
+
+
+.vereador-descricao ul li {
+	list-style: none;
+	border-radius: 0;
+	word-wrap: break-word;
+	overflow: hidden;
+	margin: 0;
+	display: inline-block;	
+	margin-bottom: 10px;
+	width: auto;
+
+}
+
+.vereador-descricao ul li span {
+	background-color: #3360A8; 
+	padding: 20px;
+	height: auto;
+	width: auto;
+}
+
+.vereador-descricao ul li:nth-child(1) span {
+	background-color: #F84343;
+	color: white;
+}
+
+.vereador-descricao ul li:nth-child(2) span {
+	background-color: #363131;
+	margin-left: 5px;
+	color: white;
+}
+
+.vereador-descricao ul li:nth-child(1){
+	color: #334B87;
+}
+
+.vereador-descricao ul li:nth-child(2){
+	color: black;
+}
+
+.vereador-descricao ul li:nth-child(3){
+	color: #FFFFFF;
+}
+
+.vereador-descricao .descricao {
+	margin-left: 5px;
+	text-align: justify;
+}
+
+.vereador-descricao .descricao span{
+	font-weight: bold;
+}
+
+.vereador-btn {
+	border-radius: 0;
+	margin-top: 20px;
+	background-color: #164A8E;
+	margin-bottom: 5px;
+	transition: 1s;
+}
+
+.menu-institucional nav {
+	background-color: transparent;
+	border:0;
+}
+
+.menu-institucional ul li {
+	width: 100%;
+	margin:0;
+	margin-bottom: 10px;
+	background-color: #00488D;
+	border-right: 10px solid #101010;
+	transition: 0.5s;
+}
+
+.menu-institucional .menu-active {
+	background-color: #101010;
+	border-right: 10px solid #134298;
+}
+
+.menu-institucional ul li:hover {
+	background-color: #101010;
+	border-right: 10px solid #134298
+}
+
+.menu-institucional ul li a {
+	font-size: 15px;
+	color: white !important;
+}

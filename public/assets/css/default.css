@@ -60,11 +60,16 @@ body {
 
 }
 #header #img-logo-primary {
-	margin-left:10px; 
+	margin-left:10px;
+	margin-top: 5px; 
 	display: inline;
 	max-width: 300px;
 	padding: 0;
+	transition: 1s;
+}
 
+#header #img-logo-primary:hover {
+	opacity: 0.7;
 }
 
 #header #img-logo-secundary {
@@ -199,6 +204,7 @@ nav {
 	background-color: #00488d;
 	height:50px;
 	/*border-top: 4px solid transparent;*/
+	border-top:2px solid #D5DDF2;
 }
 
 #sub-menu {
@@ -214,6 +220,8 @@ nav {
 #sub-menu li {
 	display: inline-block !important;
 	width: 100%;
+	min-width: 200px !important;
+
 }
 #sub-menu li  a{
 	display: block !important;
@@ -223,6 +231,7 @@ nav {
 	text-decoration: none;
 	color: white;
 	height: auto
+
 }
 
 #sub-menu li  a:hover{
