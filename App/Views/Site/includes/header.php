@@ -57,7 +57,7 @@
 								<li><a href="">Histórias</a></li>
 								<li><a href="">Honrarias</a></li>
 								<li><a href="/vereadores">Vereadores</a></li>
-								<li><a href="">Ex-Presidenes</a></li>
+								<li><a href="">Ex-Presidentes</a></li>
 								<li><a href="">Mesa Diretora</a></li>
 							</ul>
 						</li>
@@ -85,9 +85,10 @@
 						<i class="fa fa-caret-down fa-fw" aria-hidden="true"></i></a>
 							<ul id="sub-menu-fixed" class="collapse">
 								<li><a href="">Histórias</a></li>
-								<li><a href="">Históriasdsadasasdads</a></li>
-								<li><a href="">Histórias deassadsadasd</a></li>
-								<li><a href="">Históriasasdsadsaddasdsasadsads</a></li>
+								<li><a href="">Honrarias</a></li>
+								<li><a href="/vereadores">Vereadores</a></li>
+								<li><a href="">Ex-Presidentes</a></li>
+								<li><a href="">Mesa Diretora</a></li>
 							</ul>
 
 						</li>

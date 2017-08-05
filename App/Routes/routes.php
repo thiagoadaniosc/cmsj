@@ -5,6 +5,11 @@ $app->get('/', function($request, $response, $args) use($container){
 
 });
 
+$app->get('/pesquisar', function($request, $response, $args) use($container){
+	//echo "Sua busca foi: " . $_GET['busca'];
+	echo 'Você pesquisou por: ' . $request->getQueryParam('busca');
+});
+
 $app->get('/vereadores', function ($request, $response, $args) use($container){
 	$this->view->render($response, 'vereadores.php');
 });
