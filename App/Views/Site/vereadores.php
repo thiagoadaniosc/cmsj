@@ -5,7 +5,7 @@
 <main id="content-body" class="container col-lg-12">	
 	<section id="vereadores-content" class="container thumbnail col-lg-9">
 
-		<h1>Vereadores</h1>
+		<h1><i class="fa fa-chevron-right" aria-hidden="true"></i> {{ 'vereadores'|upper }} <i class="fa fa-chevron-left" aria-hidden="true"></i></h1>
 
 		<ul uk-accordion="multiple: true">
 			{% for i in 1..10 %}

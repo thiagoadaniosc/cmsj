@@ -21,9 +21,13 @@
 		<span id="carousel-title-border"></span>
 
 		<ol class="carousel-indicators">
-			<li data-target="#carousel-noticias" data-slide-to="0" class="active" ></li>
-			<li data-target="#carousel-noticias" data-slide-to="1"></li>
-			<li data-target="#carousel-noticias" data-slide-to="2"></li>
+			{% for i in 0..11 %}
+			{% if i == 0 %}
+			<li data-target="#carousel-noticias" data-slide-to="{{i}}" class="active"></li>
+			{% else %}
+			<li data-target="#carousel-noticias" data-slide-to="{{i}}" class=""></li>
+			{% endif %}
+			{% endfor %}
 		</ol>
 		<!-- Init Carousel Itens Content-->
 		<div class="carousel-inner" role="listbox" >
@@ -38,7 +42,7 @@
 				</div>
 
 			</div>
-
+			{% for i in 1..10 %}
 			<div class="item">
 				<img class="img-responsive" src="/public/assets/images/1030_big.jpg" alt="First slide">
 				<div class="carousel-caption">
@@ -47,7 +51,7 @@
 
 				</div>
 			</div>
-
+			{% endfor %}
 			<div class="item">
 				<img class="img-responsive" src="/public/assets/images/1030_big.jpg" alt="First slide">
 				<div class="carousel-caption">
