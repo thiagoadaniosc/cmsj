@@ -1,7 +1,14 @@
 <?php
+use App\Models;
+use App\Controllers;
+
 ini_set('display_errors',1);
 session_start();
 date_default_timezone_set('America/Sao_Paulo');
+define("MYSQL_HOST","localhost");
+define("MYSQL_DBNAME","mysql");
+define("MYSQL_USERNAME","root");
+define("MYSQL_PASSWORD","root");
 require 'vendor/autoload.php';
 
 $config = ['settings' => [
@@ -19,7 +26,7 @@ $container['view'] = function ($container) {
 	$view = new \Slim\Views\Twig(['App/Views/Site', 'App/Views/Admin'], [
        // 'cache' => 'path/to/cache'
 		'cache' => false
-	]);
+		]);
 
     // Instantiate and add Slim specific extension
 	$basePath = rtrim(str_ireplace('index.php', '', $container['request']->getUri()->getBasePath()), '/');

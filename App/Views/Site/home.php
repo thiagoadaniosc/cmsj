@@ -19,7 +19,7 @@
 			PRINCIPAIS NOTICIAS
 		</h1>	
 		<span id="carousel-title-border"></span>
-
+		<!--
 		<ol class="carousel-indicators">
 			{% for i in 0..11 %}
 			{% if i == 0 %}
@@ -29,6 +29,7 @@
 			{% endif %}
 			{% endfor %}
 		</ol>
+		-->
 		<!-- Init Carousel Itens Content-->
 		<div class="carousel-inner" role="listbox" >
 			<!-- Init Carrousel Itens -->

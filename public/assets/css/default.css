@@ -68,7 +68,7 @@ body {
 	display: inline;
 	max-width: 300px;
 	padding: 0;
-	transition: 1s;
+	transition: opacity 1s;
 }
 
 #header #img-logo-primary:hover {
@@ -115,13 +115,14 @@ body {
 	background-color: #00488D;
 	color: white;
 	opacity: 1;
-	transition: 0.2s;
+	transition: width 0.4s;
+
 
 }
 
 
 #header .form-control[name="busca"]:hover {
-	transition: 1s;
+	transition: width 1s;
 	width: 200px;
 	opacity: 1;
 
@@ -133,7 +134,7 @@ body {
 	box-shadow: 5px black;
 	width: 200px;
 	opacity: 1;
-	transition: 0s;
+	transition: width 0s;
 }
 
 
@@ -160,7 +161,8 @@ body {
 	border: 0px !important;
 	padding: 0px
 	margin: 0px;
-	transition: 0.2s;
+	transition: background 0s;
+
 	outline:none;
 
 }
@@ -438,7 +440,9 @@ nav {
 }
 
 @media (max-width: 768px) {
-
+	#header {
+		background-color: #02203C !important;
+	}
 	#header form button[type="submit"] {
 		width: 15% !important;
 	}

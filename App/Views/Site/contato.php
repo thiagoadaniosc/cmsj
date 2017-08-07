@@ -1,4 +1,5 @@
 {% extends "template.php" %}
+
 {% block body %}
 <link rel="stylesheet" type="text/css" href="/public/assets/css/contato.css">
 <!-- Body Init -->
@@ -32,5 +33,6 @@
 	</section>
 
 </main>
+
 {% endblock %}
 

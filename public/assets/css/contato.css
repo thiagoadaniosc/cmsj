@@ -45,6 +45,17 @@ h2 {
 
 #form form input[type="text"] {
 	/*margin-left:  5px;*/
+	border:1px solid #838383;
+	margin-left:0.5%;
+	margin-right:0.5%;
+	width: 49%;
+	transition: 0.5s;
+}
+
+#form form input[type="text"]:focus, 
+#form form textarea:focus {
+	/*margin-left:  5px;*/
+	border:1px solid #0561A0;
 }
 
 #form form input[type="submit"]{
@@ -70,7 +81,10 @@ h2 {
 	height: 30vh;
 	font-size: 20px;
 	width: 100%;
+	border:1px solid #838383;
 }
+
+
 #contato .thumbnail {
 	border-radius: 0;
 }
@@ -102,3 +116,11 @@ h2 {
 	border-radius: 0;
 }
 
+@media (max-width: 768px) {
+	#form form input[type="text"] {
+	/*margin-left:  5px;*/
+	width:100% !important;
+	margin-left:0 !important;
+	margin-right:0 !important;
+	}
+}

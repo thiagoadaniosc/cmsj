@@ -3,7 +3,7 @@
 	padding: 0;
 	padding-bottom: 20px;
 	padding-top: 20px;
-/*	width: 80%; /* Alterar para mudar escala*/
+	/*	width: 80%; /* Alterar para mudar escala*/
 	margin: auto;
 
 }
@@ -53,7 +53,6 @@
 
 .news-item:hover img {
 	filter: blur(1px);
-	filter: grayscale(1);
 }
 
 
@@ -73,7 +72,6 @@
 	margin-top: 5px;
 	margin-bottom: 5px;
 	text-transform: uppercase;
-	transition: 1s;
 	font-size: 20px;
 	color: #2F4E9E;
 
@@ -88,9 +86,7 @@
 	font-size: 15px;
 	color: black;
 	text-align: justify;
-	transition: 1s;
 	margin-bottom: 50px;
-
 
 }
 
@@ -108,10 +104,13 @@
 	background-color:#274376;
 	border:0;
 	padding: 15px 30px 15px 30px;
-	transition: 1s;
+	transition: background 1s;
+	
 }
 .news-item-btn:hover {
+	transition: 1s;
 	background-color: #03213D;
+
 }
 
 
