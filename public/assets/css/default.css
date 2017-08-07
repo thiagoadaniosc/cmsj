@@ -48,7 +48,11 @@ body {
 }
 
 #header {
-	background-color: #00488d;
+	/*background-color: #00488d;*/
+	background-image: url(../images/background-header.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
 	margin: 0;
 	border-radius: 0 !important;
 	padding: 10px;
@@ -57,7 +61,6 @@ body {
 
 #header .container {
 	padding: 0;
-
 }
 #header #img-logo-primary {
 	margin-left:10px;
@@ -96,7 +99,7 @@ body {
 }
 
 #header .form-control[name="busca"] {
-	transition: 0.4s;
+
 	width: 120px;
 	border-radius: 0;
 	color: #1755d1;
@@ -105,26 +108,34 @@ body {
 	box-shadow: 0 0 0 0;
 	border: 0 none;
 	outline: 0;
-	border-bottom: 2px solid white;
-	background-color: #1e53a8;
+	/*border-bottom: 2px solid white;*/
+	/*background-color: #1e53a8;*/
+	background-color: #252525;
+	background-color: #254CB0;
+	background-color: #00488D;
 	color: white;
-	opacity: 0.6;
+	opacity: 1;
+	transition: 0.2s;
 
 }
 
 
-#header .form-control[name="busca"]:hover, 
-#header .form-control[name="busca"]:focus {
-	transition: 0.4s;
+#header .form-control[name="busca"]:hover {
+	transition: 1s;
 	width: 200px;
 	opacity: 1;
+
 }
 
 #header .form-control[name="busca"]:focus {
 	background-color: white;
 	color: black;
 	box-shadow: 5px black;
+	width: 200px;
+	opacity: 1;
+	transition: 0s;
 }
+
 
 #header .form-control[name="busca"]::-webkit-input-placeholder {
 	color: white;
@@ -139,13 +150,25 @@ body {
 #header form button[type="submit"] {
 	border-radius: 0px !important;
 	border: 0 !important;
-	background-color: #1e53a8 !important;
+	/*background-color: #1e53a8 !important;*/
+	background-color: #252525 ;
+	background-color: #254CB0;
+	background-color: #00488D;
 	box-shadow: 0 0 0 0 !important;
 	width: 50px !important;
 	height: 34px !important; 
 	border: 0px !important;
 	padding: 0px
 	margin: 0px;
+	transition: 0.2s;
+	outline:none;
+
+}
+
+#header .form-control[name="busca"]:focus ~ .btn-submit {
+	transition: 0s;
+	background-color: white !important;
+	color:#1D5CAA;
 }
 
 nav {

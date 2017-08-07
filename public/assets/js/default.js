@@ -39,3 +39,13 @@ function goToTop() {
 	console.log("ola");
 }
 
+function buscaValidacao() {
+	var inputBusca = document.getElementById('busca');
+	if (inputBusca.value == "" || inputBusca.value.length < 2 ) {
+		alert("Insira uma palavra chave !");
+		return false;
+	} else {
+		return true;
+	}
+}
+

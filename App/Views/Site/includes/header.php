@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<base href="{{ DOCUMENT_URL }}" />
+	<link rel="icon" href="/public/assets/images/sao-jose-icon.png" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!--<script src="https://use.fontawesome.com/3875140896.js"></script>-->
 	<script type="text/javascript" src="/public/assets/js/uikit.js"></script>
@@ -20,7 +21,7 @@
 	<link rel="stylesheet" type="text/css" href="/public/assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="/public/assets/css/default.css">
 	
-	<title>Página Inicial</title>
+	<title>CÂMARA MUNICIPAL DE SÃO JOSÉ</title>
 </head>
 <body>
 
@@ -37,10 +38,10 @@
 				<button id="menu-button" class="visible-xs btn btn-primary navbar-toggle col-sm-5 col-xs-5 col-xl-5" data-toggle="collapse" data-target="#nav-menu-default">
 					<span class="fa fa-bars"></span>
 				</button>
-				<form class="navbar-form navbar-right col-xs-12" action="pesquisar">
-					<input type="text" name="busca" class="form-control form-group col-xs-8" placeholder="Pesquisar..."  >
+				<form class="navbar-form navbar-right col-xs-12" action="pesquisar" onsubmit="return buscaValidacao()">
+					<input type="text" id="busca" name="busca" class="form-control form-group col-xs-8" placeholder="Pesquisar..."  >
 
-					<button type="submit" value="Buscar" class="btn btn-primary form-group form-control"><span class="fa fa-search"></span></button>
+					<button type="submit" value="Buscar" class="btn btn-primary form-group form-control btn-submit"><span class="fa fa-search"></span></button>
 
 				</form>
 			</div>
