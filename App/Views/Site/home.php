@@ -166,6 +166,16 @@
 </nav>
 
 -->
+</nav>
+
+<section class="right-banners col-lg-4 col-md-4 col-sm-12 col-xs-12 col-xl-12 thumbnail">
+	<h2>BANNERS</h2>
+	
+	<img src="http://www.cmsj.sc.gov.br/images/acesso-informacao.png" class="img-responsive">
+	<img src="http://www.cmsj.sc.gov.br/images/plano-diretor.png" class="img-responsive">
+	<img src="http://www.cmsj.sc.gov.br/images/plano-diretor.png" class="img-responsive">
+
+</section>
 <!-- END Menu RIGHT -->
 
 </main>

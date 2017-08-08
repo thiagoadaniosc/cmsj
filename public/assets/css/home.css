@@ -313,7 +313,7 @@
 
 
 /**
-   #content-body #menu-right {
+#content-body #menu-right {
        margin-bottom:auto;
        position: relative;
        padding: 0;
@@ -474,158 +474,194 @@
     	height: 50%;
     	content: "";	
     	background-image:url("../images/camara-transparente.png");
-    }
-    END RIGHT MENU **/
-    #last-news {
-    	padding: 0;
-    	margin: 0;
+}
+END RIGHT MENU **/
 
-    }
+/*Banners*/
+.right-banners {
+  padding:0px;
+  margin-top:0px !important;
 
-    #last-news .thumbnail {
-    	padding: 5px;
-    	margin: 0;
-    	margin-top: 10px;
-    	overflow: hidden;
-    	border: 0px;
-    	text-align: center;
-    }
-    .last-news-item {
-    	margin-right: 0px;
-    }
+}
+.right-banners h2{
+  width: 100%;
+  border-top:3px solid #97A5E9;
+  border-radius: 3px;
+  /*
+  border-left: 1px solid #C3C3C3;
+  border-right: 1px solid #C3C3C3;
+  */ text-align: center;
+  color: #5A5A5A;
+  font-family: 'Raleway', sans-serif;
+  line-height: 50px;
+  margin-top:0;
 
-    .news-img {
-    	transition: 1s;
-    	overflow: hidden;
-    }
-
-    .news-img img {
-    	transition: 1s;    
-    }
-
-    .last-news-item:hover img {
-    	transform: scale(1.1,1.1);
-    	-moz-transform: scale(1.1,1.1);
-    	filter: blur(1px);
-    	filter: grayscale(1);
-    }
-
-    #last-news-title{
-    	background-color: #162D50;
-    	color: white;
-    	margin-top: 20px;
-    	padding-top: 10px;
-    	padding-bottom: 10px;
-    }
-
-    #last-news-title h3 {
-    	margin: 0;
-    	padding: 0;
-
-    }
-
-    .news-img {
-    	margin: 0;
-    	padding: 0;
-    }
-
-    .more-news {
-    	margin: auto;
-    	margin-top: 5px;
-    	color: white;
-    	text-align: center;
-    }
-
-    /*VIDEOS*/
-
-    #last-videos {
-    	padding: 0;
-    	margin: 0;
-    	width: 100%
-    }
-
-    #last-videos .thumbnail {
-    	padding: 5px;
-    	margin: 0;
-    	margin-top: 10px;
-    	overflow: hidden;
-    	border: 0px;
-    	text-align: center;
-    }
-
-    #last-videos-title{
-    	background-color: #CE7575;
-    	color: white;
-    	margin-top: 20px;
-    	padding-top: 10px;
-    	padding-bottom: 10px;
-    }
-
-    #last-videos-title h3 {
-    	margin: 0;
-    	padding: 0;
-
-    }
+}
+.right-banners img {
+  margin-bottom: 20px;
+  padding:4px;
+  margin:auto;
+  width: 100%;
+  transition: 1s;
+}
+.right-banners img:hover {
+  box-shadow: 10px black;
+  box-shadow: 0px 10px 66px 0px rgba(0,0,0,0.75);
+}
 
 
-    .last-videos-item {
-    	margin-right: 0px;
-    }
+/*End Banners*/
 
-    .videos-img{
-    	transition: 1s;
-    	overflow: hidden;
-    	margin: 0;
-    	padding: 0;
-    }
+#last-news {
+ padding: 0;
+ margin: 0;
 
-    .videos-img img {
-    	transition: 1s;    
-    }
+}
 
-    .videos-img i {
-    	transition: 1s;
-    	color: black;
-    	position: absolute;
-    	top:50%;
-    	left: 50%;
-    	margin-left: -15px;
-    	margin-top: -30px;
-    	opacity: 0.3;
+#last-news .thumbnail {
+ padding: 5px;
+ margin: 0;
+ margin-top: 10px;
+ overflow: hidden;
+ border: 0px;
+ text-align: center;
+}
+.last-news-item {
+ margin-right: 0px;
+}
 
-    }
+.news-img {
+ transition: 1s;
+ overflow: hidden;
+}
 
-    .last-videos-item:hover .videos-img i {
-    	transition:  1s;
-    	opacity: 0.6;
-    }
-    .last-videos-item:hover img {
-    	transform: scale(1.1,1.1);
-    	-moz-transform: scale(1.1,1.1);
-    	filter: blur(1px);
-    }
+.news-img img {
+ transition: 1s;    
+}
 
-    @media (max-width: 920px) {
+.last-news-item:hover img {
+ transform: scale(1.1,1.1);
+ -moz-transform: scale(1.1,1.1);
+ filter: blur(1px);
+ /*filter: grayscale(1);*/
+}
 
-      #menu-right ul li {
-       max-width:100% !important;
-       width: 100%!important;
-       height: 1¨80px;
-       background-size: 100% 180px !important;
-     }
-     #menu-right ul li a div {
-       max-width:100% !important;
-       width: 100%!important;
-       height: 180px;
-       background-size: 100% 180px !important;
-     }
+#last-news-title{
+ background-color: #162D50;
+ color: white;
+ margin-top: 20px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
 
-     #menu-right ul li a div img {
-       display: none;
-     }
-     #menu-right ul li a div:hover {
-      transition: 1s;
-      transform: scale(1,1) !important;
-    }
-  }
+#last-news-title h3 {
+ margin: 0;
+ padding: 0;
+
+}
+
+.news-img {
+ margin: 0;
+ padding: 0;
+}
+
+.more-news {
+ margin: auto;
+ margin-top: 5px;
+ color: white;
+ text-align: center;
+}
+
+/*VIDEOS*/
+
+#last-videos {
+ padding: 0;
+ margin: 0;
+ width: 100%
+}
+
+#last-videos .thumbnail {
+ padding: 5px;
+ margin: 0;
+ margin-top: 10px;
+ overflow: hidden;
+ border: 0px;
+ text-align: center;
+}
+
+#last-videos-title{
+ background-color: #CE7575;
+ color: white;
+ margin-top: 20px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+#last-videos-title h3 {
+ margin: 0;
+ padding: 0;
+
+}
+
+
+.last-videos-item {
+ margin-right: 0px;
+}
+
+.videos-img{
+ transition: 1s;
+ overflow: hidden;
+ margin: 0;
+ padding: 0;
+}
+
+.videos-img img {
+ transition: 1s;    
+}
+
+.videos-img i {
+ transition: 1s;
+ color: black;
+ position: absolute;
+ top:50%;
+ left: 50%;
+ margin-left: -15px;
+ margin-top: -30px;
+ opacity: 0.3;
+
+}
+
+.last-videos-item:hover .videos-img i {
+ transition:  1s;
+ opacity: 0.6;
+}
+.last-videos-item:hover img {
+ transform: scale(1.1,1.1);
+ -moz-transform: scale(1.1,1.1);
+ filter: blur(1px);
+}
+
+@media (max-width: 920px) {
+
+  #menu-right ul li {
+   max-width:100% !important;
+   width: 100%!important;
+   height: 1¨80px;
+   background-size: 100% 180px !important;
+ }
+ #menu-right ul li a div {
+   max-width:100% !important;
+   width: 100%!important;
+   height: 180px;
+   background-size: 100% 180px !important;
+ }
+
+ #menu-right ul li a div img {
+   display: none;
+ }
+ #menu-right ul li a div:hover {
+  transition: 1s;
+  transform: scale(1,1) !important;
+}
+}
 

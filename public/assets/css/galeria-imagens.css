@@ -1,0 +1,57 @@
+#content-body {
+	clear: both; 
+	padding: 0;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	/*	width: 80%; /* Alterar para mudar escala*/
+	margin: auto;
+}
+
+#galeria-content {
+	border-radius: 0;
+	border:0;
+}
+
+#galeria-content h2 {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#galeria-content .galeria-img {
+	padding:0;
+	border:0;
+
+}
+
+#galeria-content .galeria-img img {
+	width: 240px;
+	height: 160px;
+	border-radius: 0;
+	margin:auto;
+	padding: 0;
+}
+
+#galeria-content .galeria-img .galeria-mask {
+	background-color:rgba(0, 0, 0, 1);
+	width: 240px;
+	height: 160px;
+	opacity: 0.2;
+	transition: opacity 1s ease;
+	margin:auto;
+	margin-top:-160px;
+	border-radius:0;
+	color: white;
+	text-align: center;
+
+}
+#galeria-content .galeria-img .galeria-mask:hover {
+	background-color:rgba(37, 55, 120, 0.9);
+	opacity:1;
+}
+
+#galeria-content .galeria-img .galeria-mask i {
+
+	line-height: 160px;
+}

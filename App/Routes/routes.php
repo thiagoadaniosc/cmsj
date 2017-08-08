@@ -29,6 +29,10 @@ $app->get('/noticia', function($request, $response, $args) use($container){
 
 });
 
+$app->get('/galeria-imagens', function($request, $response, $args) use($container){
+	$this->view->render($response,'galeria-imagens.php');
+});
+
 $app->get('/teste', function($request, $response, $args) use($container){
 	$homeController = new App\Controllers\homeController();
 	var_dump($homeController->index());

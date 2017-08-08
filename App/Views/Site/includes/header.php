@@ -11,6 +11,7 @@
 	<script type="text/javascript" src="/public/assets/js/uikit-icons.js"></script>
 	<script type="text/javascript" src="/public/assets/js/bootstrap.js"></script>
 	<script type="text/javascript" src="/public/assets/js/default.js"></script>
+	<script type="text/javascript" src="/public/assets/js/lightbox.js"></script>
 
 	<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -20,6 +21,7 @@
 	<link rel="stylesheet" type="text/css" href="/public/assets/css/bootstrap.css">	
 	<link rel="stylesheet" type="text/css" href="/public/assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="/public/assets/css/default.css">
+	<link rel="stylesheet" type="text/css" href="/public/assets/css/lightbox.css">
 	
 	<title>CÂMARA MUNICIPAL DE SÃO JOSÉ</title>
 </head>
@@ -66,6 +68,7 @@
 						<li><a href="/noticias" class="nav-item">Noticias</a></li>
 						<li><a href="" class="nav-item">Atividade legislativa</a></li>
 						<li><a href="" class="nav-item">Legislação</a></li>
+						<li><a href="/galeria-imagens" class="nav-item">Galeria de Imagens</a></li>
 						<li><a href="" class="nav-item">Serviços</a></li>
 						<li><a href="" class="nav-item">Transparencia</a></li>
 						<li><a href="contato" class="nav-item">Contato</a></li>
