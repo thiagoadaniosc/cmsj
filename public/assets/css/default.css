@@ -386,11 +386,26 @@ nav {
 
 
 .footer .social-networks {
-	margin-left: 10.2%;
-	margin-bottom:50px;
+	margin:0;
+	float:right;
 }
 
-.footer .social-networks img {
+.footer .social-networks h2 {
+	margin:0;
+	padding: 0;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.footer .social-networks .social-networks-icons {
+	margin:auto;
+	width: 160px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+
+}
+
+.footer .social-networks .social-networks-icons img {
 	width: 30px; 
 	height: 30px;
 	float: left;

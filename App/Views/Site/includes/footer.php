@@ -4,10 +4,13 @@
 <footer class="footer">
 	<section class="container">
 		<section class="social-networks">
+			<h2>REDES SOCIAIS</h2>
+			<section class="social-networks-icons">
 			<img src="/public/assets/images/facebook-icon.png" class="img-responsive">
 			<img src="/public/assets/images/twitter-icon.png" class="img-responsive">
 			<img src="/public/assets/images/instagram-icon.png" class="img-responsive">
 			<img src="/public/assets/images/youtube-icon.png" class="img-responsive">
+			</section>
 		</section>
 		<img src="/public/assets/images/sao-jose-footer.png" class="img-responsive img-footer-logo">
 		<nav>

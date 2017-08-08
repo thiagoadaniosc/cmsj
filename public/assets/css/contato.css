@@ -28,11 +28,11 @@ h2 {
 
 #form {
 	margin-bottom: 70px;
-	padding-bottom: 50px;
 	padding-top: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
 	border-radius: 0;
+	height: 500px !important;
 
 }
 
@@ -59,16 +59,17 @@ h2 {
 }
 
 #form form input[type="submit"]{
-	margin-bottom: 20px;
+	margin-bottom: 90px;
 	height: 40px;
 	font-size: 20px;
 	width: 40%;
 	float:right;
 	transition: 1s;
+
 }
 
 #form form input[type="reset"]{
-	margin-bottom: 20px;
+	margin-bottom: 90px;
 	width: 40%;
 	height: 40px;
 	font-size: 20px;
@@ -82,6 +83,7 @@ h2 {
 	font-size: 20px;
 	width: 100%;
 	border:1px solid #838383;
+	max-height: 200px;
 }
 
 
