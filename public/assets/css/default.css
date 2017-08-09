@@ -450,7 +450,7 @@ nav {
 
 @media (max-width: 1024px) {
 	#nav-bar .nav-item{
-		font-size: 100% !important; 
+		font-size: 7px;
 	}
 }
 

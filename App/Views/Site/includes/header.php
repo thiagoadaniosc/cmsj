@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<base href="{{ DOCUMENT_URL }}" />
 	<link rel="icon" href="/public/assets/images/sao-jose-icon.png" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!--<script src="https://use.fontawesome.com/3875140896.js"></script>-->
@@ -22,7 +21,6 @@
 	<link rel="stylesheet" type="text/css" href="/public/assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="/public/assets/css/default.css">
 	<link rel="stylesheet" type="text/css" href="/public/assets/css/lightbox.css">
-	
 	<title>CÂMARA MUNICIPAL DE SÃO JOSÉ</title>
 </head>
 <body>
@@ -85,31 +83,31 @@
 					<a href="/"><img id="nav-img" src="/public/assets/images/sao-jose-logo-md.png" class="col-lg-2 col-md-2 col-sm-1 visible-lg visible-md" alt="Logo"  ></a>
 					<ul id="navbar-nav-fixed" class="navbar-nav nav navbar-right col-lg-10 col-md-10"">
 						<li>
-						<a class="dropdown-toggle nav-item nav-item-fixed" data-toggle="collapse" data-target="#sub-menu-fixed">Institucional
-						<i class="fa fa-caret-down fa-fw" aria-hidden="true"></i></a>
-							<ul id="sub-menu-fixed" class="collapse">
-								<li><a href="">Histórias</a></li>
-								<li><a href="">Honrarias</a></li>
-								<li><a href="/vereadores">Vereadores</a></li>
-								<li><a href="">Ex-Presidentes</a></li>
-								<li><a href="">Mesa Diretora</a></li>
-							</ul>
+							<a class="dropdown-toggle nav-item nav-item-fixed" data-toggle="collapse" data-target="#sub-menu-fixed">Institucional
+								<i class="fa fa-caret-down fa-fw" aria-hidden="true"></i></a>
+								<ul id="sub-menu-fixed" class="collapse">
+									<li><a href="">Histórias</a></li>
+									<li><a href="">Honrarias</a></li>
+									<li><a href="/vereadores">Vereadores</a></li>
+									<li><a href="">Ex-Presidentes</a></li>
+									<li><a href="">Mesa Diretora</a></li>
+								</ul>
 
-						</li>
-						<li><a href="" class="nav-item nav-item-fixed">Vereadores</a></li>
-						<li><a href="" class="nav-item nav-item-fixed">Noticias</a></li>
-						<li><a href="" class="nav-item nav-item-fixed">Atividade legislativa</a></li>
-						<li><a href="" class="nav-item nav-item-fixed">Legislação</a></li>
-						<li><a href="" class="nav-item nav-item-fixed">Serviços</a></li>
-						<li><a href="" class="nav-item nav-item-fixed">Transparencia</a></li>
-						<li><a href="contato" class="nav-item nav-item-fixed">Contato</a></li>
-					</ul>	
-				</div>
+							</li>
+							<li><a href="" class="nav-item nav-item-fixed">Vereadores</a></li>
+							<li><a href="" class="nav-item nav-item-fixed">Noticias</a></li>
+							<li><a href="" class="nav-item nav-item-fixed">Atividade legislativa</a></li>
+							<li><a href="" class="nav-item nav-item-fixed">Legislação</a></li>
+							<li><a href="" class="nav-item nav-item-fixed">Serviços</a></li>
+							<li><a href="" class="nav-item nav-item-fixed">Transparencia</a></li>
+							<li><a href="contato" class="nav-item nav-item-fixed">Contato</a></li>
+						</ul>	
+					</div>
 
-			</nav>
-		</div>
-		<!-- End Menu Fixed -->
+				</nav>
+			</div>
+			<!-- End Menu Fixed -->
 
-		<!-- Header End -->
+			<!-- Header End -->
 
-		<div id="body-wrapper" class="container">
+			<div id="body-wrapper" class="container">

@@ -4,6 +4,7 @@
 
 <link rel="stylesheet" type="text/css" href="/public/assets/css/home.css">
 <!-- Body Init -->
+
 <main id="content-body" class="container">	
 
 	<!-- <ol class="breadcrumb" style="background-color: transparent; padding-top: 50px;">
