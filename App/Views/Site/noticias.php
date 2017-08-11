@@ -1,4 +1,5 @@
 {% extends "template.php" %}
+{% set active_menu = 'noticias' %}
 {% block body %}
 <link rel="stylesheet" type="text/css" href="/public/assets/css/noticias.css">
 <!-- Body Init -->

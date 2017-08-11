@@ -1,11 +1,12 @@
 {% extends "template.php" %}
+{% set active_menu = 'noticias' %}
 {% block body %}
 <link rel="stylesheet" type="text/css" href="/public/assets/css/noticia.css">
 <!-- Body Init -->
 <main id="content-body" class="container">	
 	<article class="thumbnail col-lg-8">
 
-		<h1 class="article-title">Titulo da Noticia dassdasaddsadsadsadsadasdassad</h1>
+		<h1 class="article-title">Titulo da Noticia</h1>
 		<h4 class="article-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</h4>
 
 		<p class="article-author"><i class="fa fa-address-card-o fa-lg" aria-hidden="true"> -</i> Reporter 007 </p>

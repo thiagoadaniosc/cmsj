@@ -1,4 +1,5 @@
 {% extends "template.php" %}
+{% set active_menu_side = 'vereadores' %}
 {% block body %}
 <link rel="stylesheet" type="text/css" href="/public/assets/css/vereadores.css">
 <!-- Body Init -->

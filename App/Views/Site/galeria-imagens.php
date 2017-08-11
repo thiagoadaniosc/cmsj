@@ -1,4 +1,5 @@
 {% extends "template.php" %}
+{% set active_menu = 'galeria' %}
 {% block body %}
 <link rel="stylesheet" type="text/css" href="/public/assets/css/galeria-imagens.css">
 <!-- Body Init -->

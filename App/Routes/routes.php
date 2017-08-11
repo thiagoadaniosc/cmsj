@@ -33,10 +33,13 @@ $app->get('/galeria-imagens', function($request, $response, $args) use($containe
 	$this->view->render($response,'galeria-imagens.php');
 });
 
-$app->get('/teste', function($request, $response, $args) use($container){
-	$homeController = new App\Controllers\homeController();
-	var_dump($homeController->index());
-});
+/*$app->get('/teste', function($request, $response, $args) use($container){
+	$homeController = new App\Controllers\homeController($container);
+	$homeController->index($request, $response, $args);
+	//var_dump($homeController->index());
+});*/
+
+$app->get('/teste', 'App\Controllers\homeController:index');
 
 $app->get('/admin', function ($request, $response, $args) {
 		 return $response->withRedirect('/admin/login');
@@ -45,6 +48,7 @@ $app->get('/admin', function ($request, $response, $args) {
 $app->group('/admin', function() use($app){
 	$app->get('/login', function($request, $response, $args){
 		$this->view->render($response, 'login.php');
+
 	});
 
 });

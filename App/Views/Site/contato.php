@@ -1,4 +1,5 @@
 {% extends "template.php" %}
+{% set active_menu = 'contato' %}
 
 {% block body %}
 <link rel="stylesheet" type="text/css" href="/public/assets/css/contato.css">

@@ -187,10 +187,12 @@ nav {
 #nav-bar .navbar {
 	border-radius: 0;
 	background-color: #162d50;
+	/*background-color: #1C3862;*/
 	border: 0px;
 	margin: 0;
 	padding: 0 !important; 
 	width: 100%;
+
 }
 
 #nav-bar #nav-menu-default ul {
@@ -200,6 +202,7 @@ nav {
 	width: auto !important;
 	float: none;
 	font-size: 2vh;
+
 
 }
 
@@ -222,6 +225,9 @@ nav {
 	margin: 0;
 	border-top: 1px solid transparent;
 
+}
+
+#nav-bar #navbar-nav-default  > li:nth-child(1) > a {
 
 }
 

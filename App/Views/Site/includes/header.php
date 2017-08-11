@@ -52,7 +52,7 @@
 				<div class="container">
 					<ul id="navbar-nav-default" class="navbar-nav nav col-lg-12">
 
-						<li><a class="dropdown-toggle nav-item" data-toggle="collapse" data-target="#sub-menu">Institucional 
+						<li><a class="dropdown-toggle nav-item" data-toggle="collapse" data-target="#sub-menu">Institucional {{ active_menu == 'institucional' ? 'active' : '' }}
 							<i class="fa fa-caret-down fa-fw" aria-hidden="true"></i></a>
 							<ul id="sub-menu" class="collapse">
 								<li><a href="">Histórias</a></li>
@@ -62,14 +62,14 @@
 								<li><a href="">Mesa Diretora</a></li>
 							</ul>
 						</li>
-						<li><a href="/vereadores" class="nav-item">Vereadores</a></li>
-						<li><a href="/noticias" class="nav-item">Noticias</a></li>
+						<li><a href="/vereadores" class="nav-item {{ active_menu == 'vereadores' ? 'active' : '' }}">Vereadores </a></li>
+						<li><a href="/noticias" class="nav-item {{ active_menu == 'noticias' ? 'active' : '' }}">Noticias </a></li>
 						<li><a href="" class="nav-item">Atividade legislativa</a></li>
 						<li><a href="" class="nav-item">Legislação</a></li>
-						<li><a href="/galeria-imagens" class="nav-item">Galeria de Imagens</a></li>
-						<li><a href="" class="nav-item">Serviços</a></li>
+						<li><a href="/galeria-imagens" class="nav-item {{ active_menu == 'galeria' ? 'active' : '' }} ">Galeria de Imagens </a></li>
+						<li><a href="" class="nav-item">Serviços {{ active_menu == 'servicos' ? 'active' : '' }}  </a></li>
 						<li><a href="" class="nav-item">Transparencia</a></li>
-						<li><a href="contato" class="nav-item">Contato</a></li>
+						<li><a href="contato" class="nav-item">Contato {{ active_menu == 'contato' ? 'active' : '' }} </a></li>
 
 					</ul>	
 				</div>
